@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-block-end: 20px;
+    color: #483E8A;
+    position: relative;
+}
+.name{
+    margin-top: 0px;
+    margin-block-end: 0px;
+    font-size: 6vw;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+.mutq{
+    font-size: 1.5vw;
+    font-weight: 600;
+    position: absolute;
+    left: 65vw;
+    top: 5.2vw;
+}
+.language{
+    font-weight: normal;
+    font-size: 1vw;
+    position: absolute;
+    left: 15vw;
+    top: 0.52vw;
+}
+nav{
+    width: 100%;
+    padding-top: 1.6vw ;
+    padding-block-end: 1.6vw;
+    background-color: #D5D5EB;
+    
+}
+ul{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: #392E80E6;
+}
+.picture1{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/background-1462755_960_720.jpg);
+    background-size: cover  ;
+    margin-block-end: 7vw;
+}
+.tree{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.form{
+    width: 15vw;
+    height: 16vw;
+}
+.hetagayumavelacnel{
+    margin: 600px;
+}
+.video{
+    margin-left: 15vw;
+    color: #392E80E8;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.videocall{
+    width: 80vw;
+    height: 35vw;
+    margin: 0 auto;
+    margin-top: 2vw;
+    background-color: black;
+}
+.partners{
+    width: 30vw;
+    height: 30vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;  
+    flex-direction: column;
+}
+.ourpartn{
+    font-size: 2.5vw;   
+    margin-block-end: 0px;
+}
+.partner{
+    width: 14vw;
+    height: 14vw;
+}
+.slide{
+    width: 5vw;
+}
+footer{
+    background-color: #3D536D;
+    padding-top: 5vw;
+    width: 100%;
+}
+.forcolumn{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 0.5vw;
+    margin-block-end: 0.5vw;
+}
+.site{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 3vw;
+
+}
+.logotip{
+    width: 11vw;
+    height: 10vw;
+}
+.info{
+    font-size: 1.5vw;
+
+
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+
+
+}
+.contact{
+display: flex;   
+
+}
+.logo{
+    width: 2vw;
+    height: 1.5vw;
+    margin-right: 10px;
+}
+.information{
+    font-size: 1.5vw;   
+    margin: 0;
+}
+.payment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 3vw;
+    height: 3vw;
+
+}
+.link{
+    width: 4vw;
+
+
+}
+.link1{
+    width: 3.5vw;
+    margin-block-end: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
