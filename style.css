@@ -1,12 +1,8 @@
-/* a{
-    text-decoration: none;
-    color: black;
-} */
 body{
     margin: 0;
     font-family: 'Nunito', sans-serif;
-
 }
+
 header{
     width: 90%;
     margin: 0 auto;
@@ -16,6 +12,7 @@ header{
     color: #483E8A;
     position: relative;
 }
+
 .name{
     margin-top: 0px;
     margin-block-end: 0px;
@@ -23,6 +20,7 @@ header{
     font-weight: 900;
     letter-spacing: 10px;
 }
+
 .mutq{
     font-size: 1.5vw;
     font-weight: 600;
@@ -30,16 +28,14 @@ header{
     left: 65vw;
     top: 5.2vw;
 }
+
 .change{
     display: flex;
     width: 22vw;
     border: 1px solid red;
     position: absolute;
-
 }
-.arrow-down {
-    
-  }
+
 .language{
     font-weight: normal;
     font-size: 1vw;
@@ -47,22 +43,28 @@ header{
     left: 15vw;
     top: 0.52vw;
 }
+
 .language::before{
     content: ""; 
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #392E80;
+    border-left: 0.5vw solid transparent;
+    border-right: 0.5vw solid transparent;
+    border-top: 0.5vw solid #392E80;
     position: relative;
-     top: 0.8vw; 
-    /* left: 14vw;  */
-
+    top: 0.8vw; 
 }
+
 nav{
     width: 100%;
     padding-top: 1.6vw ;
     padding-block-end: 1.6vw;
     background-color: #D5D5EB;
 }
+
+.menu{
+    display: none;
+
+}
+
 ul{
     width: 80%;
     margin: 0 auto;
@@ -73,6 +75,7 @@ ul{
     font-weight: bold;
     color: #392E80E6;
 }
+
 .picture1{
     width: 100%;
     height: 35vw;
@@ -80,26 +83,26 @@ ul{
     background-size: 100% ;
     margin-block-end: 7vw;
 }
+
 .tree{
     width: 60%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-
 }
+
 .form{
     width: 15vw;
     height: 16vw;
 }
-.hetagayumavelacnel{
-    margin: 600px;
-}
+
 .video{
     margin-left: 15vw;
     color: #392E80E8;
     font-weight: bold;
     font-size: 1.5vw;
 }
+
 .videocall{
     width: 80vw;
     height: 34vw;
@@ -108,112 +111,125 @@ ul{
     background-image: url(img/videocall.png);
     background-size: 100%;
 }
+
 .partners{
     width: 30vw;
     height: 30vw;
     margin: 0 auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     display: flex; 
     justify-content: space-around;
     align-items: center;  
     flex-direction: column;
 }
+
 .ourpartn{
     font-size: 2.5vw;   
     margin-block-end: 0px;
 }
+
 .partner{
     width: 14vw;
     height: 14vw;
 }
+
 .slide{
     width: 5vw;
 }
+
 footer{
     background-color: #3D536D;
     padding-top: 5vw;
     padding-bottom: 2vw;
     width: 100%;
 }
+
 .forcolumn{
     width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
+
 .text{
     font-size: 1.5vw;
     font-weight: 700;
     margin-top: 0.9vw;
     margin-block-end: 0.5vw;
 }
+
 .site{
     font-size: 1.5vw;
     font-weight: 500;
     margin: 0;
     margin-top: 3vw;
-
-
 }
+
 .logotip{
     width: 11vw;
     height: 10vw;
 }
+
 .info{
     font-size: 1.5vw;
     margin-bottom: 0;
 }
+
 .column2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    /* border: 1px solid red; */
-
-
 }
+
 .contact{
+    margin-top: 1vw;
     display: flex;   
     align-items: center;
 }
+
 .logo{
     width: 2vw;
     margin-right: 10px;
 }
+
 .information{
     font-size: 1.5vw;   
     margin: 0;
 }
+
 .payment{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .payment>img{
     padding:  0 5px;
 }
+
 .card{
     width: 3vw;
     height: 3vw;
-
 }
+
 .links{
     display: flex;
     align-items: center;
 }
+
 .link{
     width: 3.5vw;
     padding:0 3px ;
 }
-/* .link:nth-child(1){
-    width: 3.5vw;
-} */
 
 .post-wrapper {
     position: relative;
-    margin: 200px 0;
-    padding: 0 50px;
+    /* margin: 200px 0; */
+    /* padding: 0 50px; */
+    margin: 10vw 0;
+    padding: 0 3vw;
 }
 
 .post-wrapper::before {
@@ -221,9 +237,12 @@ footer{
     content: '';
     background-color: #F1C057;
     width: 100vw;
-    height: 600px;
+    /* height: 600px; */
+    height: 31vw;
+
     z-index: 0;
-    top: -142px;
+    /* top: -142px; */
+    top: -7.5vw;
     left: 0;
     transform: translateX(-25%);
 }
@@ -232,7 +251,9 @@ footer{
     margin: 0 auto;
     display: flex;
     align-items: flex-start;
-    max-width: 1120px;
+    /* max-width: 1120px; */
+    max-width: 62vw;
+
     width: 100%;
     z-index: 100;
 }
@@ -243,7 +264,8 @@ footer{
 
 .post-text {
     width: 50%;
-    padding: 0 80px;
+    /* padding: 0 80px; */
+    padding: 0 4vw;
     box-sizing: border-box;
 }
 
@@ -252,13 +274,11 @@ footer{
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 0px;
-    /* font: normal normal bold 30px/32px Nunito; */
 }
 
 .post-text > p {
     font-family: 'Nunito', sans-serif;
     font-size: 1.2vw;
-    /* font: normal normal normal 24px/24px Nunito; */
 }
 
 .post-text>div{
@@ -267,27 +287,32 @@ footer{
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-decoration: underline;
+    font-size: 1vw;
 }
+
 .post-image {
-    width: 50%;
-    height: 500px;
+    /* width: 50%;
+    height: 500px; */
+    width: 31vw;
+    height: 27vw;
+    /* margin-bottom: 5vw; */
 }
-
-
 
 .post-1 {
     margin: 0 auto;
     display: flex;
     align-items: flex-start;
-    max-width: 1120px;
+    /* max-width: 1120px; */
+    max-width: 62vw;
     width: 100%;
     z-index: 100;
 }
 
 .post-text-1 {
     width: 50%;
-    padding: 0 80px;
-    box-sizing: border-box;
+    /* padding: 0 80px; */
+    padding: 0 4vw;
+    /* box-sizing: border-box; */
 }
 
 .post-wrapper-1::after {
@@ -295,9 +320,11 @@ footer{
     content: '';
     background-color: #7D77B8;
     width: 100vw;
-    height: 600px;
+    /* height: 600px; */
+    height: 31vw;
     z-index: 0;
-    top: -142px;
+    /* top: -142px; */
+    top: -7.5vw;
     left: 0;
     transform: translateX(25%);
 }
@@ -311,24 +338,27 @@ footer{
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 0px;
-    /* font: normal normal bold 30px/32px Nunito; */
 }
 
 .post-text-1 > p {
     font-family: 'Nunito', sans-serif;
     font-size: 1.2vw;
-    /* font: normal normal normal 24px/24px Nunito; */
 }
 
 .post-wrapper-1 {
     position: relative;
-    margin: 200px 0;
-    padding: 0 50px;
+    /* margin: 200px 0;
+    padding: 0 50px; */
+    margin: 10vw 0;
+    padding: 0 3vw;
 }
 
 .post-image-1 {
-    width: 50%;
-    height: 500px;
+    /* width: 50%;
+    height: 500px; */
+    width: 31vw;
+    height: 27vw;
+    
 }
 
 .post-text-1>div{
@@ -337,6 +367,8 @@ footer{
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-decoration: underline;
+    font-size: 1vw;
+
 }
 
 
