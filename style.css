@@ -319,14 +319,14 @@ footer{
     position: absolute;
     content: '';
     background-color: #7D77B8;
-    width: 100vw;
+    width: 75%;
     /* height: 600px; */
     height: 31vw;
     z-index: 0;
     /* top: -142px; */
     top: -7.5vw;
-    left: 0;
-    transform: translateX(25%);
+    left: 25%;
+    /* transform: translateX(25%); */
 }
 
 .post-1 > * {
